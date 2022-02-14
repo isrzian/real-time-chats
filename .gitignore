@@ -3,3 +3,4 @@
 /.idea/modules.xml
 /.idea/.gitignore
 /client/node_modules/
+/server/node_modules/
