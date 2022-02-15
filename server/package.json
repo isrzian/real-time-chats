@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "longpulling": "nodemon longpulling.js",
-    "eventsource": "nodemon eventsource.js"
+    "eventsource": "nodemon eventsource.js",
+    "websocket": "nodemon websocket.js"
   },
   "keywords": [],
   "author": "",
