@@ -12,7 +12,8 @@ export const EventSourcing = () => {
     const subscribe = async () => {
         const eventSource = new EventSource('http://localhost:5000/connect')
         eventSource.onmessage = function (event) {
-            console.log(event.data)
+            const message = JSON.parse(event.data)
+            setMessages(prev => [message, ...prev])
         }
     }
 
