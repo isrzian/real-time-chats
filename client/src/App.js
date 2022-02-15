@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css'
-import {EventSourcing} from "./components/index"
+import {WebSock} from "./components/index"
 
 function App() {
 
   return (
     <div>
-      <EventSourcing/>
+      <WebSock/>
     </div>
   )
 }

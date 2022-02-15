@@ -43,6 +43,7 @@
 }
 
 .connection_message {
+  margin-top: 10px;
   width: 400px;
   text-align: center;
 }
